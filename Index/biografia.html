@@ -3,56 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Biografía</title>
+    <title>Biografía | Cristopher</title>
     <link rel="stylesheet" href="../styles/biografia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
+    <nav class="navbar">
+        <div class="nav-logo">CP</div>
+        <div class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="biografia.html" class="active">Bio</a>
+            <a href="kinal.html">Kinal</a>
+        </div>
+    </nav>
+
     <header class="header">
-        <h1>Mi Biografía</h1>
-        <p>Un poco sobre quién soy y mis metas</p>
+        <div class="header-overlay">
+            <div class="profile-frame">
+                <img src="../images/yo.jpg" alt="Cristopher" class="profile-img">
+            </div>
+            <h1>Cristopher</h1>
+            <p class="subtitle">Perito en Informática</p>
+        </div>
     </header>
 
     <main class="container">
 
-        <section class="card">
-            <h2>Sobre mí</h2>
-            <img src="../images/yo.jpg" alt="Foto personal" class="img-card">
-            <p>
-                Soy Cristopher actualmente curso el ultimo año de carrera de Perito en informática,
-                vivo en la Bethania Zona 7, tengo un hermano menor, me gusta mucho el futbol y
-                hacer ejercicio por que me ayudan a mantenerme activo, me
-                interesa aprender cosas nuevas todo el tiempo, mas cuando tienen que ver con la tecnología 
-                y la informatica.
-
-            </p>
+        <section class="card bio-card">
+            <div class="card-content">
+                <h2><i class="fas fa-user-tie"></i> Sobre mí</h2>
+                <p>
+                    Soy Cristopher, actualmente curso el último año de la carrera de <strong>Perito en Informática</strong>, 
+                    tengo 18 años, Estoy en un club de futbol juego en la juvenil y en la mayor.
+                    Vivo en la Bethania, Zona 7. Me Gusta mucho el fútbol y hacer ejercicio, Me gusta mantenerme activo y otra cosa 
+                    que me apasiona son las motos en algun futuro me gustaria tener una MT09
+                </p>
+            </div>
         </section>
 
-        <section class="card">
-            <h2>Expectativas para este año</h2>
-            <img src="../images/expectativas.jpg" alt="Foto personal" class="img-card">
-            <p>
-                Para este año educativo espero aprender cosas nuevas, poder encontrar una buena empresa 
-                para poder hacer mis practicas, mejorar mis
-                habilidades técnicas y crecer tanto a nivel académico como personal, tambien poder entender 
-                muchas cosas que aun no entiendo de mi carrera y poder mejorar mis notas y por ultimo poder
-                graduarme.
-            </p>
+        <section class="card expectations-card">
+            <div class="card-img-container">
+                <img src="../images/expectativas.jpg" alt="Metas" class="img-card">
+            </div>
+            <div class="card-content">
+                <h2><i class="fas fa-bullseye"></i> Metas 2026</h2>
+                <p>
+                    Mis expectativas son enfocarme 100% en mis estudios aprender cosas nuevas sobre la tecnologia
+                    sacar buenas notas y conseguir una buena empresa donde hacer mis practicas y que me den trabajo a futuro
+                    tambien espero poder graduarme este año 
+                </p>
+                <div class="tags">
+                    <span>Graduación</span>
+                    <span>Prácticas</span>
+                    <span>Buenas Notas</span>
+                </div>
+            </div>
         </section>
 
-       <section class="card">
-            <h2>Tiempo de dedicación a los estudios</h2>
-            <img src="../images/escuela.jpg" alt="Foto personal" class="img-card">
-            <p>
-                Planeo dedicar practicamente la mayor parte de mi tiempo a mis estudios,
-                siempre organizando bien mi tiempo para cumplir con mis responsabilidades tanto
-                en el hogar como académicamente.
-            </p>
+        <section class="card time-card">
+            <div class="card-content">
+                <h2><i class="fas fa-laptop-code"></i> Dedicación Académica</h2>
+                <p>
+                    Mi compromiso es total. Planeo dedicar la mayor parte de mi tiempo a mis estudios, organizar bien mi tiempo
+                    para cumplir con cada tarea y tambien cumplir con las responsabilidades de mi casa deseo 
+                    adquirir nuevas habilidades siempre en la rama de la tecnologia y programación.
+                </p>
+                <div class="progress-container">
+                    <p>Enfoque al estudio</p>
+                    <div class="progress-bar"><div class="progress-fill"></div></div>
+                </div>
+            </div>
+            <div class="card-img-container">
+                <img src="../images/escuela.jpg" alt="Estudio" class="img-card">
+            </div>
         </section>
 
-        <a href="index.html" class="btn-biografia">Volver a la página principal</a>
-        <a href="kinal.html" class="btn-biografia btn-kinal">Ir a la página de Kinal</a>
+        <div class="actions">
+            <a href="index.html" class="btn-main"><i class="fas fa-home"></i> Inicio</a>
+            <a href="kinal.html" class="btn-kinal"><i class="fas fa-university"></i> Ver Kinal</a>
+        </div>
+
     </main>
+
+    <footer class="mini-footer">
+    </footer>
 
 </body>
 </html>
