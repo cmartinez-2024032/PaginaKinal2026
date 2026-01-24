@@ -3,58 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Interés por el Fútbol</title>
+    <title>Pasión por el Fútbol</title>
     <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
+    <div class="background-overlay"></div>
+
     <header class="header">
-        <h1>El FUTBOL: pasión, disciplina y trabajo en equipo</h1>
-        <p>Un deporte que forma carácter dentro y fuera del campo</p>
+        <div class="header-content">
+            <i class="fas fa-futbol soccer-ball-icon"></i>
+            <h1>FÚTBOL: Mi Pasión</h1>
+            <p>Disciplina, Salud y Trabajo en Equipo</p>
+        </div>
     </header>
 
     <main class="container">
-
-        <section class="card">
-            <h2>¿Qué me gusta del fútbol y por qué?</h2>
+        <section class="card animate-up">
+            <div class="card-icon"><i class="fas fa-heart"></i></div>
+            <h2>¿Por qué me apasiona?</h2>
             <p>
-                El fútbol es el deporte deporte que más me gusta porque me ayuda a forjar mi disciplina,
-                el trabajo en equipo y la constancia . Además de que me ayuda fisicamente tambien me 
-                enseña valores como el respeto, la responsabilidad y la puntualidad.
+                El fútbol siento que es la fuente de mi disciplina por que no es solo patear un balón es el deporte que me enseña 
+                la importancia de la constancia y el respeto, tambien me enseña a nunca rendirme y que el esfuerzo y sacrificio
+                de hoy vale la pena a futuro por que siempre tiene su recompensa. Me ayuda a forjar 
+                mi carácter y a valorar la importancia de cada integrante del equipo. Tambien me gusta por que aprendo a trabajar 
+                la mayor parte de veces en equipo y a confiar en mis compañeros.
             </p>
         </section>
 
-        <section class="card">
-            <h2>Tiempo que dedico a esta actividad</h2>
+        <section class="card animate-up" style="animation-delay: 0.2s;">
+            <div class="card-icon"><i class="fas fa-stopwatch"></i></div>
+            <h2>Tiempo y Dedicación</h2>
+            <p>El compromiso con el Futbol es parte de mi rutina semanal:</p>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span>6+</span>
+                    <p>Horas semanales</p>
+                </div>
+                <div class="stat-item">
+                    <span>Entrenos</span>
+                    <p>y Partidos</p>
+                </div>
+            </div>
+            <p class="text-detail">Este tiempo es mi terapia personal, me permite despejar la mente, reducir el 
+                estrés de las tareas o de problemas en el hogar y mejorar mi condición física notablemente.</p>
+        </section>
+
+        <section class="card animate-up" style="animation-delay: 0.4s;">
+            <div class="card-icon"><i class="fas fa-trophy"></i></div>
+            <h2>Crecimiento Personal</h2>
             <p>
-                Dedico varias horas a la semana aproximadamente 6 horas entrenando y jugando
-                partidos. Este tiempo me permite
-                mantenerme activo, mejorar mis habilidades deportivas y fortalecer mi condición física,
-                tambien me ayuda a despejar la mente y a relajarme.
+                En el Futbol aprendi que la perseverancia, la disciplina y la constancia es la clave del
+                éxito en la mayor parte de las cosas de la vida. Me ayudo tambien con la toma de decisiones bajo presión
+                 y el respeto por el rival son lecciones que aplico en todos los aspectos de mi vida diaria.
             </p>
         </section>
 
-        <section class="card">
-            <h2>Información adicional</h2>
-            <p>
-                El fútbol no solo me ayuda a distraerme, si no también es una
-                herramienta de desarrollo personal. En este deporte aprendi la 
-                importancia de la perseverancia, la toma de decisiones rápidas y el respeto hacia
-                compañeros y rivales.
-            </p>
-        </section>
-        
-    <div class="galeria">
-        <img src="../images/futbol1.jpg">
-        <img src="../images/futbol2.jpg">
-    </div>
-        <a href="biografia.html" class="btn-biografia">Ir a mi biografía</a>
+        <div class="galeria animate-up" style="animation-delay: 0.6s;">
+            <div class="img-wrapper">
+                <img src="../images/futbol1.jpg" alt="Entrenamiento">
+                <div class="overlay"><span>Persistencia</span></div>
+            </div>
+            <div class="img-wrapper">
+                <img src="../images/futbol2.jpg" alt="Partido">
+                <div class="overlay"><span>Victoria</span></div>
+            </div>
+        </div>
 
+        <div class="footer-actions">
+            <a href="biografia.html" class="btn-biografia">
+                Conocer más de mí <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
     </main>
-
-</section>
-
-
 
 </body>
 </html>
